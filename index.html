@@ -7,11 +7,12 @@
 </head>
 <body>
     <script>
-            const rate = 26;
+        const N = Number(prompt("Введіть число N:"));
 
-        for (let dollars = 10; dollars <= 100; dollars += 10) {
-            const hryvnia = dollars * rate;
-        console.log(`${dollars} USD = ${hryvnia} UAH`);
+    for (let i = 1; i <= 100; i++) {
+         if (i * i <= N) {
+        console.log(i);
+  }
 }
 
     </script>
