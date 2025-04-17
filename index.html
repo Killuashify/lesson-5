@@ -7,14 +7,12 @@
 </head>
 <body>
     <script>
-        let result = "";
-        
-              for (let i = 20; i <= 30; i += 0.5) {
+            const rate = 26;
 
-         result += i + " ";
+        for (let dollars = 10; dollars <= 100; dollars += 10) {
+            const hryvnia = dollars * rate;
+        console.log(`${dollars} USD = ${hryvnia} UAH`);
 }
-
-console.log(result.trim());
 
     </script>
 </body>
